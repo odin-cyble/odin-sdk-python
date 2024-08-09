@@ -2,7 +2,7 @@
 
 ODIN's primary focus is to equip infosec teams with a precise depiction of the internet, enabling them to strengthen their security defences and proactively detect threats within their attack surface.
 
-The Odin SDK for Go provides a simple way to interact with the [Odin API](https://odin.io/docs/api) and access various services related to cybersecurity, ip services, certificates, exposed files, domains and more.
+The Odin SDK for Go provides a simple way to interact with the [Odin API](https://docs.odin.io/api/api-key) and access various services related to cybersecurity, ip services, certificates, exposed files, domains and more.
 
 ## Requirements
 
@@ -379,7 +379,7 @@ Class | Method | HTTP request | Description
 - **API key parameter name**: X-API-Key
 - **Location**: HTTP header
 
-Generate your [Odin API key from the odin dashboard](https://odin.io/account/profile/api-keys).
+Generate your [Odin API key from the odin dashboard](https://search.odin.io/account/api-keys).
 
 ##
 
