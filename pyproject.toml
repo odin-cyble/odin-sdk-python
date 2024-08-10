@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "odin-sdk"
-version = "2.0.0"
+version = "2.0.1"
 description = "Odin SDK provides a way to search across various services related to cybersecurity, IP services, certificates, exposed files and more"
 authors = [{name = "cyble", email = "team@cyble.com"}]
 license = {file = "LICENSE"}
