@@ -4,12 +4,19 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "odin-sdk"
-version = "v2.0.0"
+version = "2.0.0"
 description = "Odin SDK provides a way to search across various services related to cybersecurity, IP services, certificates, exposed files and more"
 authors = [{name = "cyble", email = "team@cyble.com"}]
 license = {file = "LICENSE"}
 readme = "README.md"
 requires-python = ">=3.7"
+dependencies = [
+    "certifi>=14.05.14",
+    "six>=1.10",
+    "python-dateutil>=2.5.3",
+    "setuptools>=21.0.0",
+    "urllib3>=1.15.1",
+]
 
 [project.urls]
 Homepage = "https://github.com/cybledev/odin-sdk-python"
